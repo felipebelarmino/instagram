@@ -4,7 +4,7 @@ function login() {
         return alert("Digite o seu nome!");
     }
     sessionStorage.setItem("nomeUsuario", nome);
-    window.location.href = "/feed.html";
+    window.location.href = "feed.html";
 }
 
 var btnLogin = document.querySelector("#btnLogin");
