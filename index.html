@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
@@ -23,20 +23,20 @@
             class="instagram-logo"
             alt="Logo do instagram"
           />
-          <div class="profile-photo">
-            <img src="images/photo.jpg" alt="Foto de perfil" />
+          <div id="form-login">
+            <span>Digite seu nome</span>
+            <input
+              type="text"
+              id="inputNome"
+              name="nome"
+              placeholder="Seu nome"
+            />
+            <button type="button" id="btnLogin" class="instagram-login">Entrar</button>
+            <script src="login.js"></script>
           </div>
-          <a href="#" class="instagram-login">Continue como felip.blr</a>
-          <a href="#" class="instagram-logout">Remover conta</a>
+          <span>Suas postagens ficarão salvas durante um dia.</span>      
         </div>
-        <div class="group">
-          <p class="not-account">Não é felip.blr?</p>
-          <p class="not-account">
-            <span class="link-blue">Alternar conta</span>
-            ou
-            <span class="link-blue">Inscreva-se</span>
-          </p>
-        </div>
+       
         <div class="get-the-app">
           <p class="get-app">Baixe o aplicativo</p>
           <div class="download">
@@ -46,5 +46,6 @@
         </div>
       </div>
     </div>
+    <script src="javascripts/login.js"></script>
   </body>
 </html>

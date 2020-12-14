@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+	background: #f3f7f7;
+	-webkit-font-smoothing: antialiased;
+}
+.cabeca {
+	background: #f8f9fa;
+}
+
+#main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+}
+
+#register {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 250px;
+	border-radius: 4px;
+	background: #fff;
+	padding: 40px;
+	margin-top: 40px;
+}
+
+#register h1 {
+	font-size: 20px;
+}
+
+.upload-photo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
