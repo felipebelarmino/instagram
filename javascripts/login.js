@@ -9,4 +9,4 @@ function login() {
 
 var btnLogin = document.querySelector("#btnLogin");
 
-btnLogin.addEventListener("click", login());
+btnLogin.addEventListener("click", login);

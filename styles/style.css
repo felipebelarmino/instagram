@@ -20,7 +20,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	width: 45%;
+	width: 55%;
 	height: 100vh;
 }
 
@@ -160,7 +160,7 @@ body {
 	}
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
 	body {
 		background-color: white;
 	}
